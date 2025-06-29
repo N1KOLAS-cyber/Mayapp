@@ -28,6 +28,11 @@ import {
   getRecordActual
 } from "./estado.js";
 import { manejarRespuestasYContinuar } from "./utilidades.js";
+import { guardarResultado } from './estados.js';
+import { guardarResultado } from './firebaseServicio.js';
+
+
+
 
 const botonInicio = document.getElementById("boton-inicio");
 const preguntaContainer = document.getElementById("pregunta-container");
@@ -90,6 +95,8 @@ if (window.esAnfitrion) {
 
     });
 });
+const auth = firebase.auth();
+const db = firebase.database();
 
 function mostrarPregunta() {
   resultadoTexto.textContent = "";
@@ -192,29 +199,35 @@ function mostrarResultadoFinal() {
   botonReiniciar.style.display = "inline-block";
   botonCambiar.style.display = "inline-block";
   iconoCambiar.style.display = "none";
+
+    // ✅ Guardar el resultado en Firebase
+  guardarResultado(puntaje, total);
+
 }
 
-botonReiniciar.onclick = () => {
+
+botonReiniciar.onclick = async () => {
   const categoria = getCategoriaSeleccionada();
-  fetch("preguntas.json")
-    .then(r => r.json())
-    .then(datos => {
-      const filtradas = categoria ? datos.filter(p => p.categoria === categoria) : datos;
-      setPreguntas(seleccionarPreguntasAleatorias(filtradas, 8));
-      setPreguntaActual(0);
-      setPuntaje(0);
-      preguntaTexto.textContent = "";
-      opcionesDiv.innerHTML = "";
-      resultadoTexto.textContent = "";
-      mostrarPregunta();
-      const preguntas = getPreguntas();
-if (window.esAnfitrion & window.codigoSala) {
-  window.enviarPregunta(window.codigoSala, preguntas[0]);
+  const snapshot = await firebase.database().ref("preguntas").once("value");
+const datos = Object.values(snapshot.val());
+const filtradas = categoria ? datos.filter(p => p.categoria === categoria) : datos;
+setPreguntas(seleccionarPreguntasAleatorias(filtradas, 8));
+setPreguntaActual(0);
+setPuntaje(0);
+preguntaTexto.textContent = "";
+opcionesDiv.innerHTML = "";
+resultadoTexto.textContent = "";
+mostrarPregunta();
+
+const preguntas = getPreguntas();
+if (window.esAnfitrion && window.codigoSala) {
+  window.enviarPregunta(window.codigoSala, preguntas);
 }
+
       botonReiniciar.style.display = "none";
       botonCambiar.style.display = "none";
       iconoCambiar.style.display = "inline-block";
-    });
+    };
       // Si estamos en una sala, mostrar aciertos por jugador
   if (window.codigoSala) {
     const ref = firebase.database().ref("salas/" + window.codigoSala + "/jugadores");
@@ -248,7 +261,7 @@ if (window.esAnfitrion & window.codigoSala) {
     });
   }
 
-};
+
 
 botonCambiar.onclick = () => {
   selectorCategoria.style.display = "inline-block";

@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title> Duolingo Maya </title>
   <link rel="stylesheet" href="estilos.css">
-  
 
 </head>
 
@@ -61,36 +60,37 @@
     </tbody>
   </table>
 </div>
-
   <button id="boton-inicio">¡Empezar!</button>
-
-<div id="multijugador" style="margin-top: 20px;">
-  <h3>Modo multijugador</h3>
-  <input type="text" id="nombre-jugador" placeholder="Tu nombre">
-  <br><br>
-  <button id="btn-crear-sala">Crear sala</button>
-  <input type="text" id="codigo-sala" placeholder="Código de sala">
-  <button id="btn-unirse-sala">Unirse</button>
-
-  <div id="jugadores-conectados" style="display: none;">
-    <h4>Jugadores conectados:</h4>
-    <ul id="lista-jugadores"></ul>
-  </div>
-</div>
-
-
-  </button>
-</div>
-
   <button id="boton-reiniciar" style="display: none;">VOLVER A JUGAR</button>
 
-<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-auth-compat.js"></script>
+
   
-  <script src="firebase.js"></script> <!-- Este archivo es donde tú vas a poner la config -->
-  <script type="module" src="main.js"></script>
+  <script src="main.js"></script>
   
+ <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js"></script>
+
+<script>
+  const firebaseConfig = {
+    apiKey: "Pega_tu_apiKey_aquí",
+    authDomain: "Pega_aquí_tu_authDomain",
+    projectId: "Pega_tu_projectId",
+    storageBucket: "Pega_tu_storageBucket",
+    messagingSenderId: "Pega_tu_messagingSenderId",
+    appId: "Pega_tu_appId",
+    databaseURL: "Pega_tu_databaseURL"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+<!-- Tu lógica -->
+<script src="../auth.js"></script>
+<script src="../main.js"></script>
+
+
 </body>
 
 </html>
