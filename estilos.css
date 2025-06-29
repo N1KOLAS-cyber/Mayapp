@@ -1,0 +1,225 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf9f3;
+  color: #333;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #00695c;
+  margin-bottom: 30px;
+}
+
+#pregunta-container {
+  margin: 20px auto;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+#pregunta-texto {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#icono-cambiar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.2s ease;
+}
+
+#icono-cambiar:hover {
+  background-color: #e0e0e0;
+}
+
+#boton-cambiar {
+  padding: 12px 24px;
+  background-size: auto;
+  font-size: 12px;
+  background-color: #76bfe180;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#opciones button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #dcedc8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#opciones button:hover {
+  background-color: #aed581;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#boton-inicio {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #81d4fa;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#boton-inicio:hover {
+  background-color: #4fc3f7;
+}
+#record-texto {
+  margin-top: 10px;
+  font-size: 16px;
+    font-size: italic;
+  color: #444;
+}
+#boton-reiniciar {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color : #000000;
+  background-color: #55c9b0;
+    font-style: bold;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+#selector-categoria {
+  padding: 10px;
+  font-size: 14px;
+  font-display: center;
+  border-radius: 18px;
+  border: 1px solid #ccc;
+  background-color: #f0f8ff;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#categoria-activa {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #004f69;
+}
+
+#menu-sonido {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 1000;
+  user-select: none;
+}
+
+#menu-desplegable {
+  background-color: #ffffffcc;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  font-size: 14px;
+  animation: fadeIn 0.2s ease-in-out;
+  #menu-desplegable {
+  animation: slideDownFade 0.2s ease-in-out;
+}
+
+@keyframes slideDownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}}
+
+#menu-desplegable label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Animación de fade-in suave */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Botones que aparecen con un pequeño rebote */
+.boton-animado {
+  animation: entradaBoton 0.25s ease-out;
+}
+
+@keyframes entradaBoton {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Efecto de respuesta correcta o incorrecta */
+.correcto-flash {
+  animation: flashVerde 0.4s ease;
+}
+
+.incorrecto-flash {
+  animation: flashRojo 0.4s ease;
+}
+
+@keyframes flashVerde {
+  0% { background-color: #d4edda; }
+  100% { background-color: transparent; }
+}
+
+@keyframes flashRojo {
+  0% { background-color: #f8d7da; }
+  100% { background-color: transparent; }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title> Duolingo Maya </title>
+  <link rel="stylesheet" href="estilos.css">
+  
+
+</head>
+
+<div id="menu-sonido">
+  🔈
+  <div id="menu-desplegable" style="display: none;">
+    <label>Música 🎵
+      <input type="range" id="volumen-musica" min="0" max="1" step="0.01" value="0.4">
+    </label>
+    <label>Efectos 🔊
+      <input type="range" id="volumen-sonido" min="0" max="1" step="0.01" value="1">
+    </label>
+    <span id="toggle-mute" title="Silenciar música" style="margin-left: 10px;">🔊 Silencio</span>
+  </div>
+</div>
+
+<body>
+  <h1>Duolingo Maya</h1>
+
+<p id="record-texto"></p>
+  <h3 id="instrucciones">¡Bienvenido a Duolingo Maya! Responde las preguntas y aprende sobre la cultura maya.</p>
+  <div id="pregunta-container" style="display: none;">
+    <p id="pregunta-texto"></p>
+    <div id="opciones"></div>
+    <p id="resultado"></p>
+    <p id="record-texto"></p>
+<button id="icono-cambiar" title="Cambiar categoría" style="display: none;">
+  🔄
+</button>
+
+  </div>
+<select id="selector-categoria">
+<option value="">Todas las categorías</option>
+<option value="Basic Vocabulary">Vocabulario Básico</option>
+<option value="Numbers & Colors">Números y Colores</option>
+<option value="Animals & Nature">Animales y Naturaleza
+<option value = "Actions">Acciones</option>
+<option value="People & Places">Personas y Lugares</option>
+</select>
+<p id="categoria-activa" style="display: none;"></p>
+<button id="boton-cambiar" style="display: none;">Cambiar categoría</button>
+
+<div id="tabla-records" style="display: none; margin-top: 20px;">
+  <h3>🏆 Récords por categoría</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Categoría</th>
+        <th>Puntaje</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-records-body">
+      <!-- Aquí se insertarán los récords -->
+    </tbody>
+  </table>
+</div>
+
+  <button id="boton-inicio">¡Empezar!</button>
+
+<div id="multijugador" style="margin-top: 20px;">
+  <h3>Modo multijugador</h3>
+  <input type="text" id="nombre-jugador" placeholder="Tu nombre">
+  <br><br>
+  <button id="btn-crear-sala">Crear sala</button>
+  <input type="text" id="codigo-sala" placeholder="Código de sala">
+  <button id="btn-unirse-sala">Unirse</button>
+
+  <div id="jugadores-conectados" style="display: none;">
+    <h4>Jugadores conectados:</h4>
+    <ul id="lista-jugadores"></ul>
+  </div>
+</div>
+
+
+  </button>
+</div>
+
+  <button id="boton-reiniciar" style="display: none;">VOLVER A JUGAR</button>
+
+<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-auth-compat.js"></script>
+  
+  <script src="firebase.js"></script> <!-- Este archivo es donde tú vas a poner la config -->
+  <script type="module" src="main.js"></script>
+  
+</body>
+
+</html>

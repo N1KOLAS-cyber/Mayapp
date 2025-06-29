@@ -1,0 +1,362 @@
+[
+  {
+    "texto": "¿Cuál es la palabra maya para 'comer'?",
+    "opciones": ["Jaant", "Uk’", "Wenel"],
+    "correcta": "Jaant",
+    "categoria": "Actions"
+  },
+  {
+    "texto": "¿Cómo se dice 'beber' en maya?",
+    "opciones": ["Uk’", "Bin", "Il"],
+    "correcta": "Uk’",
+    "categoria": "Actions"
+  },
+  {
+    "texto": "¿Qué significa 'bin' en maya?",
+    "opciones": ["Ir", "Venir", "Estar"],
+    "correcta": "Ir",
+    "categoria": "Actions"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'ver'?",
+    "opciones": ["Il", "U’uy", "T’aan"],
+    "correcta": "Il",
+    "categoria": "Actions"
+  },
+  {
+    "texto": "¿Cómo se dice 'oír' en maya?",
+    "opciones": ["U’uy", "Man", "K’iin"],
+    "correcta": "U’uy",
+    "categoria": "Actions"
+  },
+  {
+    "texto": "¿Qué significa 't’aan' en maya?",
+    "opciones": ["Hablar", "Cantar", "Bailar"],
+    "correcta": "Hablar",
+    "categoria": "Actions"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'caminar'?",
+    "opciones": ["Xíimbal", "Wenel", "Jaant"],
+    "correcta": "Xíimbal",
+    "Categoria": "Actions"
+  },
+  {
+    "texto": "¿Cómo se dice 'escribir' en maya?",
+    "opciones": ["T'aan", "Ts'íib", "Il"],
+    "correcta": "Ts'íib",
+    "Categoria": "Actions"
+  },
+  {
+    "texto": "¿Qué significa 'weenel' en maya?",
+    "opciones": ["Dormir", "Comer", "Beber"],
+    "correcta": "Dormir",
+    "Categoria": "Actions"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'reír'?",
+    "opciones": ["Ok'ol", "Che'ej", "Bin"],
+    "correcta": "Che'ej",
+    "Categoria": "Actions"
+  },
+  {
+    "texto": "¿Cómo se dice 'llorar' en maya?",
+    "opciones": ["U'uy", "Che'ej", "Ok'ol"],
+    "correcta": "Ok'ol",
+    "Categoria": "Actions"
+  },
+  {
+    "texto": "¿Qué significa 'tuklik' en maya?",
+    "opciones": ["Pensar", "Hablar", "Oír"],
+    "correcta": "Pensar",
+    "Categoria": "Actions"
+  },
+  {
+    "texto": "¿Cómo se dice 'agua' en maya?",
+    "opciones": ["Ch’ooj", "K’iin", "Ha"],
+    "correcta": "Ha",
+    "categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Qué significa 'K’iin'?",
+    "opciones": ["Sol", "Jaguar", "Maíz"],
+    "correcta": "Sol",
+    "categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Cómo se dice 'maíz' en maya?",
+    "opciones": ["K’iik’", "Tz’i’ik’", "Ki'ichpam"],
+    "correcta": "Ki'ichpam",
+    "categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Qué significa 'Ha’' en maya?",
+    "opciones": ["Agua", "Fuego", "Tierra"],
+    "correcta": "Agua",
+    "categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Qué significa 'way' en maya?",
+    "opciones": ["Sueño", "Comida", "Trabajo"],
+    "correcta": "Sueño",
+    "categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'sol'?",
+    "opciones": ["K’iin", "Ha’", "Che’"],
+    "correcta": "K’iin",
+    "categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Qué significa 'k’uh' en maya?",
+    "opciones": ["Dios", "Hombre", "Mujer"],
+    "correcta": "Dios",
+    "categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Qué significa 'pool' en maya?",
+    "opciones": ["Cabeza", "Ojo", "Nariz"],
+    "correcta": "Cabeza",
+    "Categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'aire'?",
+    "opciones": ["Ha'", "Iik'", "K'áak'"],
+    "correcta": "Iik'",
+    "Categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Cómo se dice 'camisa' en maya?",
+    "opciones": ["Naj", "Kol", "P'o'ok"],
+    "correcta": "P'o'ok",
+    "Categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'luna'?",
+    "opciones": ["K’iin", "Tz’i’ik’", "Uh"],
+    "correcta": "Uh",
+    "Categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'mano'?",
+    "opciones": ["Óok", "Pool", "K'ab"],
+    "correcta": "K'ab",
+    "Categoria": "Basic Vocabulary"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'jaguar'?",
+    "opciones": ["Báalam", "Ha’", "Sak"],
+    "correcta": "Báalam",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cómo se dice 'fuego' en maya?",
+    "opciones": ["Tz’i’ik’", "Ch’ooj", "k'áak'"],
+    "correcta": "k'áak'",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'tierra'?",
+    "opciones": ["Ha’", "Sak", "kab'"],
+    "correcta": "kab'",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'perro'?",
+    "opciones": ["Pek’", "K’uh", "Iik’"],
+    "correcta": "Pek’",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cómo se dice 'gato' en maya?",
+    "opciones": ["Miis", "K’uy", "Ba’atz’"],
+    "correcta": "Miis",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Qué significa 'k’uy' en maya?",
+    "opciones": ["Búho", "Mono", "Serpiente"],
+    "correcta": "Mono",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'pájaro'?",
+    "opciones": ["Ch’íich’", "Kay", "K’ox"],
+    "correcta": "Ch’íich’",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cómo se dice 'pez' en maya?",
+    "opciones": ["Kay", "Áak", "T’eel"],
+    "correcta": "Kay",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Qué significa 'ák'ach' en maya?",
+    "opciones": ["Tortuga", "Lagarto", "Cocodrilo"],
+    "correcta": "Tortuga",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Qué significa 'lu’um' en maya?",
+    "opciones": ["Tierra", "Cielo", "Sol"],
+    "correcta": "Tierra",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'árbol'?",
+    "opciones": ["Che’", "Way", "K’áak’"],
+    "correcta": "Che’",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cómo se dice 'viento' en maya?",
+    "opciones": ["Iik’", "Lu’um", "Miis"],
+    "correcta": "Iik’",
+    "categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'serpiente'?",
+    "opciones": ["Kan", "Pek'", "Miis"],
+    "correcta": "Kan",
+    "Categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'león'?",
+    "opciones": ["León", "Báalam", "Tigre"],
+    "correcta": "León",
+    "Categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'oso'?",
+    "opciones": ["Oso", "K’uy", "Báalam"],
+    "correcta": "Oso",
+    "Categoria": "Animals & Nature"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'uno' en maya?",
+    "opciones": ["Jun", "Ka’a", "Óox"],
+    "correcta": "Jun",
+    "categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'dos'?",
+    "opciones": ["Jun", "Ka’a", "Óox"],
+    "correcta": "Ka’a",
+    "categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Cómo se dice 'tres' en maya?",
+    "opciones": ["Jun", "Ka’a", "Óox"],
+    "correcta": "Óox",
+    "categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Qué significa 'kan' en maya?",
+    "opciones": ["Amarillo", "Rojo", "Negro"],
+    "correcta": "Amarillo",
+    "categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'rojo'?",
+    "opciones": ["Chak", "Ek’", "Sak"],
+    "correcta": "Chak",
+    "categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Cómo se dice 'negro' en maya?",
+    "opciones": ["Sak", "Ek’", "K’an"],
+    "correcta": "Ek’",
+    "categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Qué significa 'sak' en maya?",
+    "opciones": ["Blanco", "Azul", "Verde"],
+    "correcta": "Blanco",
+    "categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'cuatro'?",
+    "opciones": ["Kan", "Ho’", "Wak"],
+    "correcta": "Kan",
+    "Categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Cómo se dice 'cinco' en maya?",
+    "opciones": ["Wak", "Wuk", "Ho’"],
+    "correcta": "Ho’",
+    "Categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Qué significa 'wak' en maya?",
+    "opciones": ["Seis", "Siete", "Ocho"],
+    "correcta": "Seis",
+    "Categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'siete'?",
+    "opciones": ["Waxak", "Wuk", "Bolon"],
+    "correcta": "Wuk",
+    "Categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Cómo se dice 'ocho' en maya?",
+    "opciones": ["Belej", "Waxak", "Lahun"],
+    "correcta": "Waxak",
+    "Categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'nueve'?",
+    "opciones": ["Bolon", "Lahun", "Buluk"],
+    "correcta": "Bolon",
+    "Categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Cómo se dice 'diez' en maya?",
+    "opciones": ["Lahun", "Buluk", "Oxlahun"],
+    "correcta": "Lahun",
+    "Categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Qué significa 'once' en maya?",
+    "opciones": ["Ka'lahun", "Buluk", "Oxlahun"],
+    "correcta": "Buluk",
+    "Categoria": "Numbers & Colors"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'casa'?",
+    "opciones": ["Naj", "Kol", "Lu’um"],
+    "correcta": "Naj",
+    "categoria": "People & Places"
+  },
+  {
+    "texto": "¿Cómo se dice 'milpa' en maya?",
+    "opciones": ["Kol", "Che’", "Xo’ol"],
+    "correcta": "Kol",
+    "categoria": "People & Places"
+  },
+  {
+    "texto": "¿Cómo se dice 'camino' en maya?",
+    "opciones": ["Bej", "Ja’", "K’iin"],
+    "correcta": "Bej",
+    "categoria": "People & Places"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'hombre'?",
+    "opciones": ["Xiib'", "Ko’olel", "Paal"],
+    "correcta": "Xiib'",
+    "categoria": "People & Places"
+  },
+  {
+    "texto": "¿Cómo se dice 'mujer' en maya?",
+    "opciones": ["Ko’olel", "Xiib'", "Chan"],
+    "correcta": "Ko’olel",
+    "categoria": "People & Places"
+  },
+  {
+    "texto": "¿Cuál es la palabra maya para 'niño'?",
+    "opciones": ["Ko’olel", "Xiib'", "Chan"],
+    "correcta": "Chan",
+    "Categoria": "People & Places"
+  }
+]
